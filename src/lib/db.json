@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Quang Huy",
+      "email": "quanghuy@gmail.com",
+      "phone": "0123456789",
+      "department": "IT",
+      "joinDate": "2022-01-01"
+    },
+    {
+      "name": "Minh Quang",
+      "email": "quanghoang@gmail.com",
+      "phone": "086577237",
+      "department": "IT",
+      "joinDate": "2025-11-04",
+      "id": "0d23"
+    },
+    {
+      "id": "u004",
+      "name": "Hữu Đạt",
+      "email": "huudat@gmail.com",
+      "phone": "0905678912",
+      "department": "Finance",
+      "joinDate": "2022-07-22"
+    },
+    {
+      "id": "u005",
+      "name": "Phương Linh",
+      "email": "phuonglinh@gmail.com",
+      "phone": "0932456781",
+      "department": "Design",
+      "joinDate": "2023-01-12"
+    },
+    {
+      "id": "u006",
+      "name": "Trọng Nghĩa",
+      "email": "trongnghia@gmail.com",
+      "phone": "0976543210",
+      "department": "IT",
+      "joinDate": "2022-09-30"
+    },
+    {
+      "id": "u007",
+      "name": "Tuấn Kiệt",
+      "email": "tuankiet@gmail.com",
+      "phone": "0963127890",
+      "department": "Marketing",
+      "joinDate": "2024-04-17"
+    },
+    {
+      "id": "u008",
+      "name": "Ngọc Trâm",
+      "email": "ngoctram@gmail.com",
+      "phone": "0945234567",
+      "department": "HR",
+      "joinDate": "2023-09-02"
+    },
+    {
+      "id": "u009",
+      "name": "Hoàng Phúc",
+      "email": "hoangphuc@gmail.com",
+      "phone": "0911112233",
+      "department": "IT",
+      "joinDate": "2024-02-19"
+    },
+    {
+      "id": "u010",
+      "name": "Bảo Ngọc",
+      "email": "baongoc@gmail.com",
+      "phone": "0887654321",
+      "department": "Design",
+      "joinDate": "2023-05-11"
+    },
+    {
+      "id": "u011",
+      "name": "Duy Khánh",
+      "email": "duykhanh@gmail.com",
+      "phone": "0938877665",
+      "department": "Finance",
+      "joinDate": "2022-12-01"
+    },
+    {
+      "id": "u012",
+      "name": "Anh Thư",
+      "email": "anhthu@gmail.com",
+      "phone": "0987543210",
+      "department": "Marketing",
+      "joinDate": "2023-07-08"
+    },
+    {
+      "id": "u013",
+      "name": "Gia Huy",
+      "email": "giahuy@gmail.com",
+      "phone": "0862223344",
+      "department": "IT",
+      "joinDate": "2025-02-10"
+    },
+    {
+      "id": "u014",
+      "name": "Thanh Tâm",
+      "email": "thanhtam@gmail.com",
+      "phone": "0908887776",
+      "department": "HR",
+      "joinDate": "2024-11-05"
+    },
+    {
+      "id": "u015",
+      "name": "Mai Phương",
+      "email": "maiphuong@gmail.com",
+      "phone": "0896543321",
+      "department": "Design",
+      "joinDate": "2022-08-18"
+    },
+    {
+      "id": "u016",
+      "name": "Quốc Bảo",
+      "email": "quocbao@gmail.com",
+      "phone": "0971237894",
+      "department": "Finance",
+      "joinDate": "2023-10-20"
+    },
+    {
+      "id": "u017",
+      "name": "Thu Trang",
+      "email": "thutrang@gmail.com",
+      "phone": "0933214567",
+      "department": "Marketing",
+      "joinDate": "2024-06-09"
+    },
+    {
+      "id": "u018",
+      "name": "Trí Dũng",
+      "email": "tridung@gmail.com",
+      "phone": "0954321765",
+      "department": "IT",
+      "joinDate": "2023-12-12"
+    },
+    {
+      "id": "u019",
+      "name": "Hải Yến",
+      "email": "haiyen@gmail.com",
+      "phone": "0917654320",
+      "department": "HR",
+      "joinDate": "2024-09-23"
+    },
+    {
+      "id": "u020",
+      "name": "Bảo Long",
+      "email": "baolong@gmail.com",
+      "phone": "0941113322",
+      "department": "Design",
+      "joinDate": "2022-05-14"
+    },
+    {
+      "id": "u021",
+      "name": "Ngọc Minh",
+      "email": "ngocminh@gmail.com",
+      "phone": "0991237890",
+      "department": "Finance",
+      "joinDate": "2023-03-21"
+    },
+    {
+      "id": "u022",
+      "name": "Hữu Phước",
+      "email": "huuphuoc@gmail.com",
+      "phone": "0978787676",
+      "department": "IT",
+      "joinDate": "2025-04-03"
+    },
+    {
+      "id": "u023",
+      "name": "Lệ Quyên",
+      "email": "lequyen@gmail.com",
+      "phone": "0988877665",
+      "department": "Marketing",
+      "joinDate": "2023-06-15"
+    },
+    {
+      "id": "u024",
+      "name": "Công Minh",
+      "email": "congminh@gmail.com",
+      "phone": "0912334455",
+      "department": "IT",
+      "joinDate": "2022-10-05"
+    },
+    {
+      "id": "u025",
+      "name": "Tú Anh",
+      "email": "tuanh@gmail.com",
+      "phone": "0901223344",
+      "department": "HR",
+      "joinDate": "2024-01-09"
+    },
+    {
+      "id": "u026",
+      "name": "Hoài Nam",
+      "email": "hoainam@gmail.com",
+      "phone": "0923456789",
+      "department": "Finance",
+      "joinDate": "2023-11-30"
+    },
+    {
+      "id": "u027",
+      "name": "Trúc Ly",
+      "email": "truccly@gmail.com",
+      "phone": "0945678901",
+      "department": "Design",
+      "joinDate": "2022-06-25"
+    },
+    {
+      "id": "u028",
+      "name": "Văn Khôi",
+      "email": "vankhoi@gmail.com",
+      "phone": "0967543120",
+      "department": "IT",
+      "joinDate": "2024-08-04"
+    },
+    {
+      "id": "u029",
+      "name": "Kim Ngân",
+      "email": "kimngan@gmail.com",
+      "phone": "0937778889",
+      "department": "Marketing",
+      "joinDate": "2023-09-18"
+    },
+    {
+      "id": "u030",
+      "name": "Trung Hiếu",
+      "email": "trunghieu@gmail.com",
+      "phone": "0975554433",
+      "department": "IT",
+      "joinDate": "2024-12-22"
+    },
+    {
+      "id": "u031",
+      "name": "Thảo Vy",
+      "email": "thaovy@gmail.com",
+      "phone": "0912345678",
+      "department": "HR",
+      "joinDate": "2023-02-14"
+    },
+    {
+      "id": "u032",
+      "name": "Hà My",
+      "email": "hamy@gmail.com",
+      "phone": "0909991112",
+      "department": "Design",
+      "joinDate": "2025-03-08"
+    }
+  ]
+}
