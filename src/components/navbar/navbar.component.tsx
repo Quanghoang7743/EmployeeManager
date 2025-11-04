@@ -1,18 +1,19 @@
 import { Box, Stack, Typography, Divider } from '@mui/material';
 import PeopleIcon from '@mui/icons-material/People';
-import SettingsIcon from '@mui/icons-material/Settings';
 import { useNavigate, useLocation } from 'react-router-dom';
 import Logo from '../../assets/react.svg';
 
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 
-export enum NAV_TYPES {
-  USER = 'USER',
-}
+export const NAV_TYPES = {
+  USER: 'USER',
+};
 
 
-const NAV_MAPPING: { type: NAV_TYPES; url: string[] }[] = [
+
+
+const NAV_MAPPING: { type: typeof NAV_TYPES[keyof typeof NAV_TYPES]; url: string[] }[] = [
     {
         type: NAV_TYPES.USER,
         url: ["/"]
@@ -25,7 +26,7 @@ export const NavbarComponent = () => {
     const location = useLocation();
     const pathname = location.pathname;
 
-    const [value, setValue] = useState<NAV_TYPES | null>(() => {
+    const [value, setValue] = useState<typeof NAV_TYPES[keyof typeof NAV_TYPES] | null>(() => {
         const nav = NAV_MAPPING.find((item) => item.url.findIndex((url) => location.pathname.indexOf(url) > -1) > -1);
         return nav?.type ?? null;
     });
@@ -37,7 +38,7 @@ export const NavbarComponent = () => {
         }
     }, [pathname]);
 
-    const isActive = (type: NAV_TYPES) => {
+    const isActive = (type: typeof NAV_TYPES[keyof typeof NAV_TYPES]) => {
         return value === type;
     };
 

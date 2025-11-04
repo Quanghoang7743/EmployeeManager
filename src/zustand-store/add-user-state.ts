@@ -18,7 +18,7 @@ export interface AddUserState {
     clear: () => void;
 }
 
-const useAddUserStore = create<AddUserState>((set, get) => ({
+const useAddUserStore = create<AddUserState>((set) => ({
     isLoading: false,
     setIsLoading: (value) => set({ isLoading: value }),
     selected: null,
