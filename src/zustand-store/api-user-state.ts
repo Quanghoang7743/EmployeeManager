@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import { API_ROUTER } from "../lib/apirouter";
 
 export interface User {
     id?: number,
@@ -38,7 +39,7 @@ export const useUserStore = create<UserStore>((set, get) => ({
             }
             
             const queryString = queryParams.toString()
-            const url = `http://localhost:3000/users${queryString ? `?${queryString}` : ''}`
+            const url = `${API_ROUTER}/users${queryString ? `?${queryString}` : ''}`
             
             const response = await fetch(url)
             let data = await response.json()
