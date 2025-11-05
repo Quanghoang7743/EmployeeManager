@@ -66,7 +66,7 @@ export const useUserStore = create<UserStore>((set, get) => ({
     addUser: async (user: Omit<User, 'id'>) => {
         try {
             set({ isLoading: true })
-            const response = await fetch('http://localhost:3000/users', {
+            const response = await fetch(`${API_ROUTER}/users`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -90,7 +90,7 @@ export const useUserStore = create<UserStore>((set, get) => ({
     updateUser: async (id: string | number, user: Omit<User, 'id'>) => {
         try {
             set({ isLoading: true })
-            const response = await fetch(`http://localhost:3000/users/${id}`, {
+            const response = await fetch(`${API_ROUTER}/users/${id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -112,7 +112,7 @@ export const useUserStore = create<UserStore>((set, get) => ({
     deleteUser: async (id: string | number) => {
         try {
             set({ isLoading: true })
-            const response = await fetch(`http://localhost:3000/users/${id}`, {
+            const response = await fetch(`${API_ROUTER}/users/${id}`, {
                 method: 'DELETE'
             })
             
